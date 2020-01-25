@@ -38,7 +38,7 @@ plot <- plot + theme(panel.background = element_rect(fill = design_color, colour
 plot <- plot + labs(title = "U.S. GDP by County",
                     subtitle = "2017",
                     caption = "source: Bureau of Economic Analysis, U.S. Department of Commerce",
-                    fill = "GDP (thousands of 2019 USD)")
+                    fill = "GDP (2019 USD)")
 
 plot <- plot +  
   annotate(geom = "text", 
